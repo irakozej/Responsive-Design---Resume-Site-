@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background: #080422;
+}
+h2 {
+  color: white;
+}
+
+.circle {
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background: white;
+  margin: 5% auto;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+.content {
+  font-size: 12px;
+  position: absolute;
+  width: inherit;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+ul {
+  list-style: circle;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: circle;
+}
+.skills {
+  color: white;
+  font-size: 18px;
+  float: left;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  width: 50%;
+  list-style: disc;
+}
+.skills h2 {
+  text-align: left;
+  margin-left: 5%;
+}
+.services {
+  color: white;
+  font-size: 18px;
+  float: right;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  width: 50%;
+}
+.services h2 {
+  text-align: left;
+  margin-left: 5%;
+}
+.another {
+  color: white;
+  font-size: 18px;
+  float: left;
+  margin-left: 3%;
+}

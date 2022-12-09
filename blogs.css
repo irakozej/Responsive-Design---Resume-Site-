@@ -1,0 +1,121 @@
+body {
+  background-color: #080422;
+}
+.blogs {
+  display: flex;
+  color: white;
+}
+.firstblog {
+  margin-top: 15px;
+  width: 50%;
+  margin-left: 10%;
+  color: white;
+}
+.secondblog {
+  width: 50%;
+  margin-top: 0px;
+  margin-left: -10%;
+  color: white;
+}
+.container1 {
+  background: white;
+  justify-content: space-between;
+  padding: 40px;
+  width: 25%;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: small;
+}
+.container1 img {
+  height: 100px;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.container1 p {
+}
+.another {
+  display: flex;
+}
+.container1 .another img {
+  height: 100px;
+  float: right;
+  margin-right: 30px;
+}
+.container2 {
+  color: black;
+  background: white;
+  justify-content: space-between;
+  padding: 40px;
+  width: 25%;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: small;
+}
+.container2 img {
+  height: 100px;
+  float: left;
+  width: 140px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.blogs {
+  display: block;
+  margin-top: -10px;
+}
+.list {
+  display: flex;
+  margin-top: 5px;
+}
+.container3 {
+  background: white;
+  justify-content: space-between;
+  padding: 40px;
+  width: 50%;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: small;
+  color: black;
+}
+.container3 img {
+  height: 100px;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.container3 .another img {
+  height: 100px;
+  float: right;
+  margin-right: 30px;
+}
+.container4 {
+  color: black;
+  background: white;
+  justify-content: space-between;
+  padding: 40px;
+  width: 50%;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: small;
+}
+.container4 img {
+  height: 100px;
+  float: left;
+  width: 140px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.rhsblogs {
+  width: 50%;
+  display: block;
+  color: white;
+  margin-top: -700px;
+  float: right;
+}
+.lftblogs {
+  margin-left: 125px;
+}

@@ -34,28 +34,7 @@ a {
   height: 100vh;
 }
 .navbar {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-.title {
-  text-align: center;
-}
-.description {
-  text-align: center;
-}
-#img {
-  border-radius: 50%;
-}
-.empty {
-  background-color: #080422;
-  height: 20%;
-  width: 100%;
-  bottom: 0;
-  position: absolute;
+  text-align: right;
 }
 .middle {
   color: white;
@@ -80,4 +59,10 @@ a {
 .section-2 {
   text-align: center;
   padding-top: 8%;
+}
+.signup {
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-left: 150px;
+  color: white;
 }

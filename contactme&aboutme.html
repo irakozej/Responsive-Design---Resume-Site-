@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="navbar">
-        <p>Irakoze Jean Paul</p>
-        <p>home</p>
-        <p>about</p>
-        <p>services</p>
-        </p>pages<p>
-        </p>blog<p>
-        </p>contact<p>
-</div>
-<div class="description">
-    <p>contacts.</p>  <span>if you are looking for a person
-    to work with on your project
-    i can guarantee you a greate 
-    chance that you have found
-    one.    fell free to fill the form 
-    on the right side, and we will
-    reach out on you in not more
-    than three days.
-</span> 
-
-</div>
-<div class="rhs">
-    <p>name</p>
-    <p>email</p>
-    <p>reason</p>
-    <input type="button" value="send">
-</div>
-<div class="media">
-    <p>media</p>
-</div>
-<div class="icons">
-    
-</div>
-</body>
+    <link rel="stylesheet" href="contactme&aboutme.css" />
+  </head>
+  <body>
+    <header>
+     <nav>
+       <div class="logo">Irakoze Jean Paul</div>
+       <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="services.html">service</a></li>
+        <li><a href="portifolio.html">pages</a></li>
+        <li><a href="blogs.html">blog</a></li>
+        <li><a href="contactme&aboutme.html">contact</a></li>
+        </ul>
+      </div>
+     </nav>
+     </header>
+     <section>
+       <div class="contents">
+    <div class="innerpart">
+      <div class="description">
+        <p>contacts.</p>
+          if you are looking for a person to work with on your project i can
+          guarantee you a greate chance that you have found one. fell free to
+          fill the form on the right side, and we will reach out on you in not
+          more than three days.
+        </div>
+       </div>
+      <div class="rhs">
+        <form action="" class="contact" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Enter your name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your eamil" required>
+          <textarea name="" name="message"  rows="5" placeholder="Your message"></textarea>
+          <input type="submit" class="send-btn" value="Send">
+        </form>
+      </div>
+    </div>
+  </div>
+    <div class="media">
+      <p>media</p>
+    </div>
+    <div class="icons"></div>
+     </section>
+  </body>
 </html>
