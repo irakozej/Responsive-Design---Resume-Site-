@@ -4,45 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font-awesome.min.css">
     <title>landing page</title>
     <link rel="stylesheet" href="mybrand.css" />
-  </head>
+    <link rel="stylesheet" href="blogs.css" />
   <body>
-    <div class="signup">
-      <a href="signup.html"> 
-        <button>SIGNUP</button>
-      </a>
+      
 
-    <div class="navbar">
-      <ul>
-<<<<<<< HEAD
-        <li><a href="portifolio.html">Meetme</a></li>
-        <li><a href="contactme&aboutme.html">about</a></li>
-        <li><a href="services.html">services</a></li>
-        <li><a href="#services">pages</a></li>
-        <li><a href="blogs.html">blog</a></li>
-        <li><a href="contactme&aboutme.html">Contact</a></li>
-=======
-        <li><a href="#meetme">Home</a></li>
-        <li><a href="#home">about</a></li>
-        <li><a href="#about">services</a></li>
-        <li><a href="#services">pages</a></li>
-        <li><a href="#pages">blog</a></li>
-        <li><a href="#blog">Contact</a></li>
+    <nav class="topnav" id="myTopnav">
+      <a href="#"  class="margin-right">Meet me</a>
+      <div class="space"></div>
+        <a href="#meetme">Home</a>
+        <a href="#contactme">about</a>
+        <a href="#services">services</a>
         
->>>>>>> 0a6287df9e5007935ac836fda250c16ed201a9af
-      </ul>
-    </div>
+        <a href="#blogs">blog</a>
+        <a href="#contactme">Contact</a>
+        <a href="signup.html">  
+          <button>SIGNUP</button>
+        </a>
+        <a href="#"> 
+        <button>logout</button>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </nav>
 
-    <div class="container">
+    <div class="container" id="hero">
       <div class="middle">
         <div class="section-1">
           <img
             id="img"
             src="profile.jpeg"
             alt="profile"
-            width="150px"
-            height="150px"
+            class="image-profile"
           />
         </div>
         <div class="section-2">
@@ -56,7 +52,141 @@
           <p>ambition is to make pixel perfect of the work.</p>
         </div>
       </div>
-      <div class="empty"></div>
     </div>
+    <div class="middlesection" id="meetme">
+
+      <div class="leftpart">
+        <div>
+          <h3>Hello I am IRAKOZE Jean paul</h3>
+          <div style="padding-top: 30px;">
+
+            <p>Front-end developer</p>
+            <p>UI/UX deigner</p>
+            <p>from Rwanda</p>
+          </div>
+        </div>
+        
+        <div class="button">
+          <button>hire me <a href="contactme"></a></button>
+        </div>
+        <div class="icons">
+          <i class="fa fa-git"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-envelope"></i>
+        </div>
+      </div>
+      <div class="rightpart">
+        <img src="profile.jpeg" />
+      </div>
+    </div>
+    
+    </div>
+    <div class="services" id="services">
+      <h2>My Developmet Process</h2>
+      <div class="process">
+        <div class="circle">
+          <div class="content">
+            <h3>Concept</h3>
+          </div>
+        </div>
+        <div class="circle">
+          <div class="content">
+            <h3>Design</h3>
+          </div>
+        </div>
+        <div class="circle">
+          <div class="content">
+            <h3>Coding</h3>
+        </div>
+      </div>
+      <div class="circle">
+        <div class="content">
+          <h3>launch</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="skills">
+        <h2>about my skills:</h2>
+        <ul>
+          <li>html</li>
+          <li>user interface</li>
+          <li>mobile interface</li>
+          <li>wordpress</li>
+        </ul>
+      </div>
+      <div class="services">
+        <h2>about my service:</h2>
+        <ul>
+          <li>website design</li>
+          <li>project concept & development</li>
+          <li>blog & social network design</li>
+          <li>social media compaign</li>
+        </ul>
+      </div>
+    </div>
+    <div class="another">
+      <p>
+        interested in our services, please feel free to reach out on us on our
+        contact page <a href="#contactme">here</a>
+      </p>
+    </div>
+  </div>
+   <div id="blogs">
+    <h3 class="blog-h3">online bloging site</h3>
+    <h5 class="blog-h5">
+      A good web hosting service will keep your site running smoothly 24/7. read
+      our blogs and understand everyth  ing and how it works.
+    </h5>
+    <div class="firstsection">
+      <div class="first">
+        <img src="blog1.png" alt="" class="responsive" />
+        <p class="blog-p">
+          watch is for smatest weaing watch not only make you look greate but
+          also help you to read the time
+        </p>
+        <a href="firstblog.html">read more</a>
+      </div>
+      <div class="second">
+        <img src="blog2.jpeg" alt="" class="responsive" />
+        <p class="blog-p">
+          being digitalised starts with being up to date and by having a laptop
+          you have access that allows you to be updated
+        </p>
+        <a href="secondblog.html">read more</a>
+      </div>
+
+      <div class="third">
+        <img src="blog3.png" alt="" class="responsive" />
+        <p class="blog-p">
+          being digitalised starts with being up to date and by having a laptop
+          you have access that allows you to be updated
+        </p>
+        <a href="thirdblog.html">read more</a>
+      </div>
+    </div>
+   </div>
+   <div class="contactme" id="contactme">
+      <div class="innerpart">
+        <div class="description">
+          <h3>Contacts.</h3>
+           <p>if you are looking for a person to work with on your project i can
+            guarantee you a greate chance that you have found one. fell free to
+            fill the form on the right side, and we will reach out on you in not
+            more than three days.</p> 
+          </div>
+       </div>
+      <div class="rhs">
+        <form action="" class="contact" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Enter your name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your eamil" required width="">
+          <textarea name="" name="message"  rows="5" placeholder="Your message"></textarea>
+        
+          <input type="submit" class="send-btn" value="Send">
+          
+        </form>
+    </div>
+  <script src="main.js"></script>
   </body>
 </html>
