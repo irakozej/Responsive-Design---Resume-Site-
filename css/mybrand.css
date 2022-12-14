@@ -5,10 +5,13 @@
 body {
   background-color: #080422;
   color: white;
-  margin: auto;
+  width: auto;
+  padding: 0;
+  margin: 0;
 }
 h3 {
   margin: 10px 0px;
+  font-size: larger;
 }
 
 /* Add a black background color to the top navigation */
@@ -21,6 +24,7 @@ h3 {
 }
 .margin-right {
   margin-right: auto;
+  margin-left: 4.5%;
 }
 .space {
   min-width: 10px;
@@ -28,7 +32,7 @@ h3 {
   height: 20px;
   background-color: #080422;
   display: inline-block;
-  width: 40%;
+  width: 37%;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -83,6 +87,38 @@ h3 {
 .topnav .icon {
   display: none;
 }
+#aboutpage {
+  padding-top: 10%;
+  padding-left: 4.5%;
+  color: white;
+  display: flex;
+  width: 100%;
+  text-decoration: wavy;
+}
+#aboutpage h4 {
+  font-size: larger;
+  padding-top: 3%;
+  padding-bottom: 4.5%;
+}
+#aboutpage .aboutleftpart {
+  display: block;
+  width: 50%;
+  padding: 4.5% 4.5%;
+}
+#aboutpage .aboutrightpart {
+  display: block;
+  width: 50%;
+  margin-left: 4.5%;
+  padding-top: 4.5%;
+}
+#aboutpage .aboutskills {
+  padding-top: 15.5%;
+}
+
+#aboutpage .experience {
+  padding-top: 15.5%;
+}
+
 #meetme {
   display: flex;
   align-items: stretch;
@@ -136,8 +172,20 @@ img.image-profile {
   width: 150px;
   height: 150px;
 }
+#services h2 {
+  padding-bottom: 4.5%;
+}
+.skills h3 {
+  padding-bottom: 5%;
+}
+.services h3 {
+  padding-bottom: 4.5%;
+}
 #services {
-  text-align: center;
+  text-align: left;
+}
+#serviceslink {
+  color: aqua;
 }
 
 .process {
@@ -170,8 +218,8 @@ img.image-profile {
 .rhs button,
 .rhs textarea {
   display: block;
-  width: 100%;
-  padding: 5px;
+  width: 80%;
+  padding: 7px;
   margin: 10px 0px;
   box-sizing: border-box;
 }
@@ -197,6 +245,12 @@ img.image-profile {
   flex: 1;
   height: 50%;
 }
+.description h3 {
+  padding-top: 2%;
+}
+.description p {
+  padding-top: 7.5%;
+}
 #services .container {
   justify-content: space-around;
   display: flex;
@@ -210,6 +264,18 @@ img.image-profile {
   justify-content: center;
   display: flex;
   align-items: center;
+}
+#contactme .icons {
+  padding-top: 11%;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: -93px;
+}
+#contactme p {
+  font-size: medium;
+  font-style: normal;
 }
 @media only screen and (max-width: 600px) {
   .middle {

@@ -1,0 +1,118 @@
+body {
+  background-color: #080422;
+}
+p {
+  width: 70%;
+  color: white;
+  padding-left: 4.5%;
+  float: left;
+  padding-top: 5%;
+}
+img {
+  width: 65%;
+  padding-top: 5%;
+  padding-left: 4.5%;
+  align-items: center;
+}
+textarea {
+  width: 50%;
+  margin-left: 4.5%;
+  height: 20%;
+}
+.mainblog button {
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 4.5%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.mainblog button:hover {
+  background-color: #080422;
+  color: white;
+}
+.mainblog {
+  display: block;
+}
+.otherblogs {
+  display: block;
+  width: 100%;
+}
+.wholepage {
+  display: flex;
+}
+.scndblog {
+  display: block;
+}
+.topnav {
+  background-color: #080422;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.margin-right {
+  margin-right: auto;
+  margin-left: 4.5%;
+}
+.space {
+  min-width: 10px;
+
+  height: 20px;
+  background-color: #080422;
+  display: inline-block;
+  width: 40%;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #080422;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: fixed;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}

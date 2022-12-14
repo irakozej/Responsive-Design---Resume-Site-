@@ -1,0 +1,31 @@
+body {
+  background-color: #080422;
+}
+.about {
+  padding-left: 4.5%;
+  color: white;
+  display: flex;
+  width: 100%;
+  text-decoration: wavy;
+}
+.about h4 {
+  font-size: larger;
+}
+.aboutleftpart {
+  display: block;
+  width: 50%;
+  padding: 4.5% 4.5%;
+}
+.aboutrightpart {
+  display: block;
+  width: 50%;
+  margin-left: 4.5%;
+  padding-top: 4.5%;
+}
+.aboutskills {
+  padding-top: 15.5%;
+}
+
+.experience {
+  padding-top: 15.5%;
+}

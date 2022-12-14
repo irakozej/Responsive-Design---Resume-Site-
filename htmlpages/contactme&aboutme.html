@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="contactme&aboutme.css" />
+    <link rel="stylesheet" href="../css/contactme&aboutme.css" />
   </head>
   <body>
     <header>
@@ -34,9 +34,12 @@
        </div>
       <div class="rhs">
         <form action="" class="contact" method="post">
-          <input type="text" name="name" class="text-box" placeholder="Enter your name" required>
-          <input type="email" name="email" class="text-box" placeholder="Your eamil" required>
+          <input type="text" name="name" class="text-box" placeholder="Enter your name">
+          <span id="name-error"></span><br>
+          <input type="email" name="email" class="text-box" placeholder="Your email">
+          <span id="email-error"></span><br>
           <textarea name="" name="message"  rows="5" placeholder="Your message"></textarea>
+          <span id="message-error"></span><br>
           <input type="submit" class="send-btn" value="Send">
         </form>
       </div>

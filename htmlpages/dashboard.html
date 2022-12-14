@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="logo">
+              <span class="nav-item">Admin</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-menorah"></i>
+              <span class="nav-item">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-plus"></i>
+              <span class="nav-item">add blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-database"></i>
+              <span class="nav-item">delete a blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-comment"></i>
+              <span class="nav-item">view comments</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-cog"></i>
+              <span class="nav-item">Setting</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="loginform.html" class="logout">
+              <i class="fas fa-sign-out-alt"></i>
+              <span class="nav-item">Log out</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="main">
+        <div class="main-top">
+          <h1>Blogs</h1>
+          <i class="fas fa-user-cog"></i>
+        </div>
+        <div class="users">
+          <div class="card">
+            <img src="../images/blog1.png" />
+            <h4>blog1</h4>
+            <p>blog1</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>view blog</button>
+          </div>
+          <div class="card">
+            <img src="../images/blog2.jpeg" />
+            <h4>blog2</h4>
+            <p>blog2</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>view blog</button>
+          </div>
+          <div class="card">
+            <img src="../images/blog3.png" />
+            <h4>blog3</h4>
+            <p>blog3</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>view blog</button>
+          </div>
+          <div class="card">
+            <img src="../images/blog4.jpg" />
+            <h4>blog4</h4>
+            <p>blog4</p>
+            <div class="per">
+              <table>
+                <tr></tr>
+
+                <tr>
+                  <td>Month</td>
+                  <td>Year</td>
+                </tr>
+              </table>
+            </div>
+            <button>view blog</button>
+          </div>
+        </div>
+
+        <section class="attendance">
+          <div class="attendance-list">
+            <h1>comments List</h1>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>occupation</th>
+                  <th>Date</th>
+                  <th>Join Time</th>
+                  <th>Logout Time</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>Irakoze</td>
+                  <td>UI/UX Design</td>
+                  <td>01-01-22</td>
+                  <td>1:00AM</td>
+                  <td>1:10PM</td>
+                  <td><button>View comment</button></td>
+                </tr>
+                <tr class="active">
+                  <td>02</td>
+                  <td>Chriss Ngoma</td>
+                  <td>UI/UX design</td>
+                  <td>01-01-22</td>
+                  <td>01:10AM</td>
+                  <td>01:30PM</td>
+                  <td><button>View comment</button></td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>Mwanafunzi</td>
+                  <td>programmer</td>
+                  <td>01-01-22</td>
+                  <td>1:20AM</td>
+                  <td>1:40PM</td>
+                  <td><button>View comment</button></td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>David</td>
+                  <td>UI/UX Design</td>
+                  <td>01-01-22</td>
+                  <td>1:40AM</td>
+                  <td>1:500PM</td>
+                  <td><button>View comment</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>

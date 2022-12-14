@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+      <a href="#"  class="margin-right">IRAKOZE</a>
+      <div class="space"></div>
+        <a href="index.html">Home</a>
+        <a href="aboutpage.html">about</a>
+        <a href="services.html">services</a>
+        
+        <a href="blogs.html">blog</a>
+        <a href="contactme.html">Contact</a>
+        <a href="signup.html">  
+          <button>SIGNUP</button>
+        </a>
+        <a href="loginform.html"> 
+        <button>logout</button>
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <div class="container">
+        <div class="innerframe">
+            <div class="leftpart">
+            <h4 class="signup-label">sign up</h4>
+            <form id="signup-form" action="">
+            <label for="username">username</label><br>
+            <input type="text" name="username" id="username"><br>
+            <span id="username-error"></span><br>
+            <label for="email">email</label><br>
+            <input type="text" name="email" id="email" ><br>
+            <span id="email-error"></span><br>
+            <label for="password">password</label><br>
+            
+            <input type="password" name="psw" id="psw" ><br>
+            <span id="password-error"></span><br>
+            <label for="psw"><b>comfirm Password</label><br>
+              <input type="password" id="psw-repeat" name="psw-repeat" ><br>
+              <span id="repeat-password-error"></span><br>
+             <button class="submit-btn" type="submit">submit</button>
+            </form>
+            </div>
+            
+                <div class="rightpart">
+                    <div class="buttons">
+            <a href="index.html"><button>continue with google</button></a><br>
+            <a href="index.html"><button>continue with apple</button></a><br>     
+                 </div>
+            <p>already have an account?
+                  login <a href="loginform.html"><button>here.</button></a>
+            </p>
+        </div>
+        
+
+        </div>
+    </div>
+   <script src="../js/signup.js"></script> 
+</body>
+</html>
