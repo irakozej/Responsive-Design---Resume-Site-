@@ -20,7 +20,12 @@ data.addEventListener("submit", function (event) {
 
   if (email.trim() == "") {
     let error = document.getElementById("email-error");
-    error.innerText = "Email is required!";
+    error.innerText = "Email is not valid!";
+    error.style.color = "red";
+    return;
+  } else if (!ValidateEmail(email)) {
+    let error = document.getElementById("Email-error");
+    error.innerText = "Email is not valid!";
     error.style.color = "red";
     return;
   } else {
@@ -61,3 +66,9 @@ data.addEventListener("submit", function (event) {
 
   console.log(username, email, password, repeat_password);
 });
+function ValidateEmail(mail) {
+  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
+    return true;
+  }
+  return false;
+}

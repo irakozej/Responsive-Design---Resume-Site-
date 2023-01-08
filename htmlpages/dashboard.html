@@ -12,11 +12,35 @@
   </head>
   <body>
     <div class="container">
+      <div class="add-blog" id="add-blog">
+        <div class="label sub-container">
+          <h2>New blog</h2>
+        </div>
+        <div class="item sub-container">
+          <label for="title">Title</label><br />
+          <input type="text" id="title1" name="title" />
+        </div>
+        <div class="item sub-container">
+          <label for="title">photo</label><br />
+          <input type="file" id="photo1" name="photo" />
+        </div>
+        <div class="item sub-container">
+          <label for="title">Description</label><br />
+          <input type="textarea" id="description1 " name="textarea" />
+        </div>
+        <div class="item sub-container">
+          <input class="btn" id="add_blog" type="button" value="Add" />
+          <input class="btn" id="view_blog" type="button" value="view" />
+
+          <input class="btn" onclick="cancel()" type="button" value="Cancel" />
+        </div>
+      </div>
+
       <nav>
         <ul>
           <li>
             <a href="#" class="logo">
-              <span class="nav-item">Admin</span>
+              <span class="nav-item"></span>
             </a>
           </li>
           <li>
@@ -28,7 +52,7 @@
           <li>
             <a href="#">
               <i class="fas fa-plus"></i>
-              <span class="nav-item">add blog</span>
+              <span onclick="addBlog();" class="nav-item">add blog</span>
             </a>
           </li>
           <li>
@@ -77,7 +101,8 @@
                 </tr>
               </table>
             </div>
-            <button>view blog</button>
+            <button>edit blog</button>
+            <button>delete blog</button>
           </div>
           <div class="card">
             <img src="../images/blog2.jpeg" />
@@ -91,7 +116,8 @@
                 </tr>
               </table>
             </div>
-            <button>view blog</button>
+            <button>edit blog</button>
+            <button>delete blog</button>
           </div>
           <div class="card">
             <img src="../images/blog3.png" />
@@ -105,7 +131,8 @@
                 </tr>
               </table>
             </div>
-            <button>view blog</button>
+            <button>edit blog</button>
+            <button>delete blog</button>
           </div>
           <div class="card">
             <img src="../images/blog4.jpg" />
@@ -121,7 +148,8 @@
                 </tr>
               </table>
             </div>
-            <button>view blog</button>
+            <button>edit blog</button>
+            <button>delete blog</button>
           </div>
         </div>
 
@@ -183,5 +211,6 @@
         </section>
       </section>
     </div>
+    <script src="../js/dashboard.js"></script>
   </body>
 </html>

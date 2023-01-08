@@ -80,6 +80,7 @@ a:hover i {
 }
 
 .container {
+  z-index: -1;
   display: flex;
 }
 
@@ -119,7 +120,7 @@ a:hover i {
 .users .card img {
   width: 70px;
   height: 70px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .users .card h4 {
   text-transform: uppercase;
@@ -142,7 +143,7 @@ a:hover i {
   padding-right: 15px;
 }
 .users .card button {
-  width: 100%;
+  width: 50%;
   margin-top: 8px;
   padding: 7px;
   cursor: pointer;
@@ -156,7 +157,6 @@ a:hover i {
   transition: 0.5s;
 }
 
-/*Attendance List serction  */
 .attendance {
   margin-top: 20px;
   text-transform: capitalize;
@@ -211,4 +211,44 @@ table thead tr {
   background: #080422;
   color: #fff;
   transition: 0.5rem;
+}
+.add-blog {
+  display: none;
+  z-index: 99;
+  position: absolute;
+  background-color: #080422;
+  width: 350px;
+  height: 500px;
+  left: 40%;
+  top: 10%;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 35px rgb(47, 98, 105);
+}
+.sub-container {
+  height: 20%;
+  width: 100%;
+  display: block;
+}
+.sub-container input {
+  padding: 10px;
+  border-radius: 6px;
+}
+.sub-container input:hover {
+  background-color: #080422;
+  color: white;
+}
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-blog .item {
+  margin-left: 65px;
+}
+.add-blog .btn {
+  width: 60px;
+}
+.footer_icons {
+  color: white;
 }

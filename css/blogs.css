@@ -59,3 +59,23 @@ p.blog-p {
   width: 100%;
   height: 300px;
 }
+@media only screen and (max-width: 750px) {
+  .firstsection {
+    display: block;
+  }
+  #elements {
+    width: 100%;
+  }
+  .first {
+    margin-right: 4.5%;
+    width: 80%;
+  }
+  .second {
+    margin-right: 4.5%;
+    width: 80%;
+  }
+  .third {
+    margin-right: 4.5%;
+    width: 80%;
+  }
+}
