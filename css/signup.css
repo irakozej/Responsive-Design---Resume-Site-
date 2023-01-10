@@ -85,6 +85,9 @@ input[type="submit"] {
   overflow: hidden;
   width: 100%;
 }
+.topnav :hover {
+  border-radius: 5%;
+}
 .margin-right {
   margin-right: auto;
   margin-left: 4.5%;
@@ -158,6 +161,10 @@ input[type="submit"] {
   color: black;
 
   border-radius: 6%;
+}
+.submit-btn:hover {
+  color: white;
+  background-color: #080422;
 }
 
 .signup-label {

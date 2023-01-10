@@ -238,6 +238,14 @@ table thead tr {
   background-color: #080422;
   color: white;
 }
+.sub-container #photo1 {
+  padding-left: 0;
+  width: 60%;
+}
+.sub-container #photo1:hover {
+  box-shadow: 0 20px 35px rgb(47, 98, 105);
+}
+
 .label {
   display: flex;
   align-items: center;

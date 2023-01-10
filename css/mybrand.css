@@ -50,6 +50,7 @@ h3 {
 .topnav a:hover {
   background-color: #ddd;
   color: #080422;
+  border-radius: 5%;
 }
 
 /* Add an active class to highlight the current page */
@@ -378,4 +379,7 @@ footer {
 @media screen and (min-width: 769px) {
   #meetme .rightpart {
   }
+}
+.topnav #btn {
+  border-radius: 4%;
 }
