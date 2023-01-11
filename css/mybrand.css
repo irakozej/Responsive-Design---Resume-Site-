@@ -119,10 +119,14 @@ h3 {
   margin-left: 4.5%;
   margin-right: 4.5%;
 }
+.button #hiremebtn {
+}
 button {
   outline: none;
   border: none;
   background-color: #1c2680;
+  padding-top: -20px;
+
   padding: 10px;
   color: white;
 }

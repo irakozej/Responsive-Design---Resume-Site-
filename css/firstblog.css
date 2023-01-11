@@ -4,15 +4,16 @@ body {
 p {
   width: 70%;
   color: white;
-  padding-left: 4.5%;
+  padding-left: 2s.5%;
   float: left;
-  padding-top: 5%;
+  padding-top: 1%;
 }
 img {
   width: 65%;
   padding-top: 5%;
   padding-left: 4.5%;
   align-items: center;
+  box-shadow: 0 20px 35px rgb(47, 98, 105);
 }
 textarea {
   width: 50%;
@@ -33,6 +34,8 @@ textarea {
 }
 .mainblog {
   display: block;
+  padding-top: 50px;
+  padding-left: 10px;
 }
 .otherblogs {
   display: block;
@@ -42,6 +45,7 @@ textarea {
   display: flex;
 }
 .scndblog {
+  padding-top: 50px;
   display: block;
 }
 .topnav {
@@ -71,6 +75,7 @@ textarea {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 /* Change the color of links on hover */
