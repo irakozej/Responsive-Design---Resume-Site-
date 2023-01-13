@@ -21,9 +21,11 @@ function addBlog() {
 function cancel() {
   document.getElementById("add-blog").style.display = "none";
 }
+
 add_blogs.onclick = function () {
   localStorage.setItem("title", "description");
 };
+function delete_blog(){}
 delete_blog.onclick = function () {
   localStorage.clear();
 };

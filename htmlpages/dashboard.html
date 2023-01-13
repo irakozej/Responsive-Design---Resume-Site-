@@ -13,27 +13,34 @@
   <body>
     <div class="container">
       <div class="add-blog" id="add-blog">
-        <div class="label sub-container">
-          <h2>New blog</h2>
-        </div>
-        <div class="item sub-container">
-          <label for="title">Title</label><br />
-          <input type="text" id="title1" name="title" />
-        </div>
-        <div class="item sub-container">
-          <label for="title">photo</label><br />
-          <input type="file" id="photo1" name="photo" />
-        </div>
-        <div class="item sub-container">
-          <label for="title">Description</label><br />
-          <input type="textarea" id="description1 " name="textarea" />
-        </div>
-        <div class="item sub-container">
-          <input class="btn" id="add_blogs" type="button" value="Add" />
-          <input class="btn" id="view_blog" type="button" value="view" />
+        <form id="blog">
+          <div class="label sub-container">
+            <h2>New blog</h2>
+          </div>
+          <div class="item sub-container">
+            <label for="title">Title</label><br />
+            <input type="text" id="title1" name="title" />
+          </div>
+          <div class="item sub-container">
+            <label for="title">photo</label><br />
+            <input type="file" id="photo1" name="photo" />
+          </div>
+          <div class="item sub-container">
+            <label for="title">Description</label><br />
+            <input type="textarea" id="description1 " name="description" />
+          </div>
+          <div class="item sub-container">
+            <input class="btn" id="add_blogs" type="button" value="Add" />
+            <input class="btn" id="view_blog" type="button" value="view" />
 
-          <input class="btn" onclick="cancel()" type="button" value="Cancel" />
-        </div>
+            <input
+              class="btn"
+              onclick="cancel()"
+              type="button"
+              value="Cancel"
+            />
+          </div>
+        </form>
       </div>
 
       <nav>
@@ -205,6 +212,10 @@
         </section>
       </section>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../js/blog.js"></script>
     <script src="../js/dashboard.js"></script>
   </body>
 </html>
