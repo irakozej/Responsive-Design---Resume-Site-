@@ -120,6 +120,7 @@ h3 {
   margin-right: 4.5%;
 }
 .button #hiremebtn {
+  size: 20px;
 }
 button {
   outline: none;
@@ -382,8 +383,21 @@ footer {
 }
 @media screen and (min-width: 769px) {
   #meetme .rightpart {
+    opacity: 0.8;
   }
 }
 .topnav #btn {
   border-radius: 4%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Hide the nav links */
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
